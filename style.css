@@ -1,0 +1,8 @@
+img {
+  width: 200px;
+}
+
+row {
+  display: flex;
+  align-items: flex-stretch;
+}
