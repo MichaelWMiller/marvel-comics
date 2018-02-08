@@ -13,7 +13,7 @@ MarvelService = function MarvelService() {
         var teamArray = myTeam
         for (var i = 0; i < teamArray.length; i++) {
             if (id == teamArray[i]['id']) {
-                teamArray.pop(teamArray[i])
+                teamArray.splice(i, 1)
                 return teamArray
             }
         }
